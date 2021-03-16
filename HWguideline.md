@@ -26,6 +26,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
+<!--LOOK AT THIS WHEN COMPLETING TASKS-->
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -41,7 +42,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
+<!--MOST IMPORTANT TO FOLLOW ABOVE^^^-->
 
 ## Mock-Up
 
