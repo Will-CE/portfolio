@@ -71,6 +71,7 @@ h3 { font-size: var(--fs-h3) };
 }
 .section__title--intro {
     font-weight: var(--fw-reg);
+
 }
 
 .section__title--intro strong {
@@ -87,6 +88,13 @@ h3 { font-size: var(--fs-h3) };
     background-color: var(--seablue);
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    position: relative;
+    text-align: right;
+    left: -1.5;
+    width: calc(100% + 1.5em);
 }
 
 /* Header Section */
@@ -106,5 +114,16 @@ nav {
 @media (min-width: 600px) {
         .intro {
             display: grid;
+            width: min-content;
+            margin: 0%;
+            grid-column-gap: 1em ;
+            grid-template-areas: 'img title' 'img subtitle';
+            grid-template-columns: min-content max-content;
         }
 }
+
+.intro__img {
+    grid-area: img;
+    min-width: 250px;
+}
+
